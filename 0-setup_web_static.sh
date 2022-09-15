@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# write a Bash script that sets up your web servers for the deployment of web_static. It must:
+# write a Bash script that sets up your web servers
+# for the deployment of web_static. It must:
 apt-get -y update
 apt-get -y install nginx
 ufw allow 'Nginx HTTP'
