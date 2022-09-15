@@ -7,7 +7,7 @@ from fabric.api import local, run, put
 from fabric.api import env
 from os.path import exists, isdir
 import time
-env.hosts = ['54.235.14.170', '	54.83.58.3']
+env.hosts = ['54.242.220.107', '54.211.63.59']
 env.user = 'ubuntu'
 env.key = '~/.ssh/school'
 
@@ -26,7 +26,7 @@ def do_pack():
 
 
 def do_deploy(archive_path):
-    """Funtion to distrubutes archives"""
+    """Funtion to distributes archives"""
 
     if exists(archive_path) is False:
         return False
